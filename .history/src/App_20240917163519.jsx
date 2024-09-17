@@ -15,10 +15,9 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow">
+        {/* <main className="flex-grow">
           <Routes>
-          <Route path="/" element={<Home />} />
-           
+            <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/products" element={<Products />} />
             <Route path="/internships" element={<Internships />} />
@@ -27,7 +26,7 @@ function App() {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
-        </main>
+        </main> */}
         <Footer />
       </div>
     </Router>
