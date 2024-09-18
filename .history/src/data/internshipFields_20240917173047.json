@@ -21,13 +21,13 @@
     "id": 4,
     "title": "UI/UX Design",
     "description": "Create intuitive and visually appealing user interfaces and experiences. Master design tools like Sketch or Figma, learn about user research, wireframing, prototyping, and usability testing to create engaging digital products.",
-    "image": "https://cdn.pixabay.com/photo/2017/08/07/13/45/design-2595514_960_720.jpg" 
+    "image": "/images/ui-ux-design.jpg"
   },
   {
     "id": 5,
     "title": "Machine Learning",
     "description": "Explore algorithms that enable computers to learn from and make predictions on data. Dive into neural networks, deep learning, and natural language processing. Apply ML models to solve real-world problems in various domains.",
-    "image": "https://cdn.pixabay.com/photo/2017/07/18/20/58/machine-learning-2513026_960_720.jpg" 
+    "image": "/images/machine-learning.jpg"
   },
   {
     "id": 6,
@@ -39,12 +39,12 @@
     "id": 7,
     "title": "Cybersecurity",
     "description": "Develop skills to protect systems, networks, and programs from digital attacks. Learn about encryption, network security, ethical hacking, and risk assessment. Practice identifying vulnerabilities and implementing security measures.",
-    "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=227,h=168,fit=crop/Aq20eV79zLfpXV6b/istock-1276643671-A1agppkaKqi8zzvj.jpg"
+    "image": "/images/cybersecurity.jpg"
   },
   {
     "id": 8,
     "title": "IoT Development",
-    "description": "Delve into the Internet of Things (IoT) ecosystem. Acquire skills in programming embedded systems, integrating sensors and actuators, and designing connected devices. Develop expertise in IoT protocols and data analysis for intelligent applications.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Red_dot.svg" 
+    "description": "Explore the Internet of Things (IoT) ecosystem. Learn to program embedded systems, work with sensors and actuators, and create connected devices. Gain experience in IoT protocols and data analytics for smart applications.",
+    "image": "/images/iot-development.jpg"
   }
 ]

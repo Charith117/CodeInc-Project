@@ -1,16 +1,29 @@
 function ContactUs() {
     return (
-      <div className="container px-4 mx-auto mt-8">
-        <h2 className="mb-6 text-3xl font-bold text-center md:text-4xl">Get in Touch</h2>
-        <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-700">Have questions about our services? We'd love to hear from you!</p>
-        <form className="max-w-lg mx-auto">
+      <div className="container mx-auto mt-8">
+        <h1 className="mb-4 text-4xl font-bold">Contact Us</h1>
+        <p>Get in touch with us for any inquiries or support.</p>
+        <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
           <div className="mb-4">
             <label htmlFor="name" className="block mb-2 font-bold text-gray-700">Name*</label>
             <input
               type="text"
               id="name"
               name="name"
+              value={formData.name}
+              onChange={handleInputChange}
               required
+              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+            />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="lastName" className="block mb-2 font-bold text-gray-700">Last name</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleInputChange}
               className="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
             />
           </div>
@@ -20,6 +33,8 @@ function ContactUs() {
               type="email"
               id="email"
               name="email"
+              value={formData.email}
+              onChange={handleInputChange}
               required
               className="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
             />
@@ -29,6 +44,8 @@ function ContactUs() {
             <textarea
               id="message"
               name="message"
+              value={formData.message}
+              onChange={handleInputChange}
               required
               className="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
               rows="4"

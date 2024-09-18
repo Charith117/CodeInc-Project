@@ -108,7 +108,7 @@ function Home() {
                   </div>
                   <div className="flex justify-center mt-6">
                     <a 
-                      href="https://forms.gle/QVDxBkntuWnMAdtW7" 
+                      href="https://forms.google.com/internship-application" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="px-6 py-3 text-base font-semibold text-white transition-all duration-300 transform bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg hover:scale-105"

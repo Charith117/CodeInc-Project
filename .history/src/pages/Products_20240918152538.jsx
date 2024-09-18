@@ -1,7 +1,7 @@
 function Products() {
     return (
       <div className="container mx-auto mt-8">
-        <h1 className="mb-4 text-4xl font-bold">Our Works</h1>
+        <h1 className="mb-4 text-4xl font-bold">Our Products</h1>
         <div className="flex flex-wrap justify-center gap-4">
           <div className="max-w-sm m-4 overflow-hidden bg-white rounded shadow-lg">
             <img className="object-cover w-full h-48" src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/iot-gif-1.gif" alt="IoT Development Project"/>
@@ -49,41 +49,6 @@ function Products() {
             </div>
           </div>
           <div className="max-w-sm m-4 overflow-hidden bg-white rounded shadow-lg">
-            <img className="object-cover w-full h-48" src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/data-science-2-mP4XPq0y3wUKory9.gif" alt="Data Science Project"/>
-            <div className="px-6 py-4">
-              <div className="mb-2 text-xl font-bold">Data Science Project</div>
-              <p className="text-base text-gray-700">
-                Analyze complex datasets and derive meaningful insights.
-              </p>
-            </div>
-          </div>
-          <div className="max-w-sm m-4 overflow-hidden bg-white rounded shadow-lg">
-            <img className="object-cover w-full h-48" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=227,h=168,fit=crop/Aq20eV79zLfpXV6b/java_projects_for_beginners-AGBrMZgjljfZV2EE.jpg" alt="Cloud Computing Project"/>
-            <div className="px-6 py-4">
-              <div className="mb-2 text-xl font-bold">Cloud Computing Project</div>
-              <p className="text-base text-gray-700">
-                Harness the power of cloud technologies for scalable solutions.
-              </p>
-            </div>
-          </div>
-          <div className="max-w-sm m-4 overflow-hidden bg-white rounded shadow-lg">
-            <img className="object-cover w-full h-48" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=227,h=168,fit=crop/Aq20eV79zLfpXV6b/istock-1276643671-A1agppkaKqi8zzvj.jpg" alt="Cybersecurity Project"/>
-            <div className="px-6 py-4">
-              <div className="mb-2 text-xl font-bold">Cybersecurity Project</div>
-              <p className="text-base text-gray-700">
-                Protect digital assets and implement robust security measures.
-              </p>
-            </div>
-          </div>
-          <div className="max-w-sm m-4 overflow-hidden bg-white rounded shadow-lg">
-            <img className="object-cover w-full h-48" src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/9d7b99_dfcb8e88751c4cecb7ac677976976ec8~mv2-mP4Xa8xEPPTLEoVx.gif" alt="Artificial Intelligence Project"/>
-            <div className="px-6 py-4">
-              <div className="mb-2 text-xl font-bold">Artificial Intelligence Project</div>
-              <p className="text-base text-gray-700">
-                Develop intelligent systems and machine learning models.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     );

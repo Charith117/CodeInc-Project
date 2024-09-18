@@ -7,7 +7,7 @@ function Services() {
           <div className="flex flex-col items-center p-4 space-y-2 bg-blue-500 rounded-lg">
             <div className="flex flex-col items-center space-y-2">
               <div className="overflow-hidden h-96">
-              <img src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/web_developing-dJoGejvV7nI9KNlO.gif" alt="UI/UX Design" className="object-cover w-full h-full rounded-lg" />
+                <img src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/web_developing-dJoGejvV7nI9KNlO.gif" alt="Web Development" className="object-cover w-full h-full rounded-lg" />
               </div>
               <div className="p-4">
                 <h2 className="text-2xl font-semibold text-white">Web Development</h2>
@@ -31,7 +31,7 @@ function Services() {
           </div>
           <div className="flex flex-col items-center p-4 space-y-2 bg-red-500 rounded-lg">
             <div className="flex flex-col items-center space-y-2">
-              <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=227,h=168,fit=crop/Aq20eV79zLfpXV6b/java_projects_for_beginners-AGBrMZgjljfZV2EE.jpg" alt="Cloud Solutions" className="object-cover w-full h-full rounded-lg" />
+              <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=227,h=168,fit=crop/Aq20eV79zLfpXV6b/java_projects_for_beginners-AGBrMZgjljfZV2EE.jpg" alt="Cloud Solutions" className="object-cover w-64 h-full rounded-lg" />
               <h2 className="text-2xl font-semibold text-white">Cloud Solutions</h2>
               <p className="text-base text-white">Learn about cloud platforms like AWS, Azure, or Google Cloud. Gain experience in deploying, managing, and scaling applications in the cloud. Explore concepts like serverless computing, containerization, and cloud security.</p>
             </div>

@@ -11,17 +11,14 @@ function AboutUs() {
             <div className="p-4 bg-gray-100 rounded-lg shadow-md">
               <h3 className="mb-2 text-xl font-semibold text-gray-800">Integrity</h3>
               <p className="text-base text-gray-600">We act with honesty and transparency in all our interactions.</p>
-              <i className="text-gray-800 fas fa-lock"></i>
             </div>
             <div className="p-4 bg-gray-100 rounded-lg shadow-md">
               <h3 className="mb-2 text-xl font-semibold text-gray-800">Collaboration</h3>
               <p className="text-base text-gray-600">We work together as a team to achieve common goals.</p>
-              <i className="text-gray-800 fas fa-users"></i>
             </div>
             <div className="p-4 bg-gray-100 rounded-lg shadow-md">
               <h3 className="mb-2 text-xl font-semibold text-gray-800">Continuous Improvement</h3>
               <p className="text-base text-gray-600">We strive to learn and improve every day.</p>
-              <i className="text-gray-800 fas fa-rocket"></i>
             </div>
           </div>
         </div>

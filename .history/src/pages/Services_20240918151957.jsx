@@ -7,7 +7,7 @@ function Services() {
           <div className="flex flex-col items-center p-4 space-y-2 bg-blue-500 rounded-lg">
             <div className="flex flex-col items-center space-y-2">
               <div className="overflow-hidden h-96">
-              <img src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/web_developing-dJoGejvV7nI9KNlO.gif" alt="UI/UX Design" className="object-cover w-full h-full rounded-lg" />
+                <img src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/web_developing-dJoGejvV7nI9KNlO.gif" alt="Web Development" className="object-cover w-full h-full rounded-lg" />
               </div>
               <div className="p-4">
                 <h2 className="text-2xl font-semibold text-white">Web Development</h2>

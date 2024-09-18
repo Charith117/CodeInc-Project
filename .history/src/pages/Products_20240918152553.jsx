@@ -1,7 +1,7 @@
 function Products() {
     return (
       <div className="container mx-auto mt-8">
-        <h1 className="mb-4 text-4xl font-bold">Our Works</h1>
+        <h1 className="mb-4 text-4xl font-bold">Our Products</h1>
         <div className="flex flex-wrap justify-center gap-4">
           <div className="max-w-sm m-4 overflow-hidden bg-white rounded shadow-lg">
             <img className="object-cover w-full h-48" src="https://assets.zyrosite.com/Aq20eV79zLfpXV6b/iot-gif-1.gif" alt="IoT Development Project"/>
